@@ -2,32 +2,25 @@
 
 ## Instructions
 
-Clone the reopsitory.
+1. Clone the repository.
+2. Set up and activate a virtual environment.
+3. Install the requirements.
+4. Run the Jypyter Notebook.
+
+### Using PyCharm
+
+Please refer to the Week 1 lab session.
+
+
+### Using the terminal
+
+You can do the same using the terminal.
 
 ```bash
-git clone ...
-```
-
-Create a virtual environment for this repository.
-
-```bash
-python3 -m venv venv
-```
-
-Activate the virtual environment.
-
-```bash
-source venv/bin/activate
-```
-
-Install the requirements.
-
-```bash
+git clone THIS_REPO
+cd THIS_REPO
+python3 -m venv venv  # or python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
-```
-
-Run the Jypyter Notebook.
-
-```bash
 jupyter notebook w2_understandingUnfamiliarSystems.ipynb
 ```
