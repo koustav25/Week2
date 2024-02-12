@@ -31,6 +31,7 @@ python3 -m venv venv  # or python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 ```
+
 ## Steps
 
 1. Run the steps to create the word-cloud from the docs within the Jupyter Notebook.
@@ -38,3 +39,11 @@ pip install -r requirements.txt
 3. In the prep-work and lecture-time we started off a table that mapped concepts to source code classes. Revisit this, and add any additional concepts that appear important within the word-cloud.
 4. Run the final part of Jupyter notebook (running PyDeps). This should provide you with an overview of the dependencies between the modules. Write down any conclusions you draw about potential issues around coupling, and where they may arise.
 5. Given what we covered in the lecture, and the tools that you have found out about today, revisit CovaSim and try to apply a combination of top-down and bottom-up comprehension, to establish what you can about the system.
+
+
+## Contributors
+
+Please record below who participated in this week's lab practice submissions:
+- NAME (brief description of the role)
+- NAME (brief description of the role)
+- ...
